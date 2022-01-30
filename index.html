@@ -12,7 +12,7 @@
   <h2 id="introduccion">Oculte o descifre su mensaje sin preocupaciones</h2>
   <main class="main">
     <section class="form box">
-      <form action="" id = "funcion">
+      <form action="" >
         <label for="input-texto" id ="label">Solo letras minúsculas, sin acento<br><br></label>
         <span id = "msj-error"></span>
         <input class="text-input" type="text" name="inputTexto" id="input-texto" placeholder="Ingrese el texto aqui">
@@ -22,14 +22,16 @@
     </section>
   
     <section class="msg box">
-      <form action = "" id = "resultado";>
+      <form action = "">
         <label for = "output-texto" class = "label">Mensaje encriptado:<br><br></label>
-        <input class="text-input" type="text" id="msg" name = "mensajeEncriptado"></input>
+        <input class="text-input" type="text" id="msg" readonly="readonly"></input>
         <input class="btn" type="submit" value="copiar" id="btn-copy">
       </form>
     </section>
   </main>
 
-  <script src="script.js"></script>
+  <script src="js/form.js"></script>
+  <script src="js/funcionesCodificacion.js"></script>
+  <script src="js/validacion.js"></script>
 </body>
 </html>
